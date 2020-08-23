@@ -6,12 +6,12 @@
 
 @interface SPHeaderView : UIView
 
-@property (nonatomic, retain) NSDictionary *settings;
-@property (nonatomic, retain) UIView *contentView;
-@property (nonatomic, retain) UILabel *titleLabel;
-@property (nonatomic, retain) UILabel *subtitleLabel;
+@property(nonatomic, retain) NSDictionary *settings;
+@property(nonatomic, retain) UIView *contentView;
+@property(nonatomic, retain) UILabel *titleLabel;
+@property(nonatomic, retain) UILabel *subtitleLabel;
 
-@property (nonatomic, assign) CGFloat elasticHeight;
+@property(nonatomic, assign) CGFloat elasticHeight;
 
 - (id)initWithSettings:(NSDictionary *)settings;
 - (CGFloat)contentHeightForWidth:(CGFloat)width;
